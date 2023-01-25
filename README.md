@@ -1,3 +1,3 @@
 # product-preview-card-component
 
-https://dazzling-blini-c3a86b.netlify.app/
+https://helpful-sable-f810a8.netlify.app/
