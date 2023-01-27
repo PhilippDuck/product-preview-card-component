@@ -22,11 +22,11 @@ function Card() {
     }, []); //empty array makes side effect only run on mount and unmount
 
     return (
-        <div className='bg-white flex flex-col rounded-xl lg:flex-row m-6 max-w-md lg:max-w-6xl'>
+        <div className='bg-white flex flex-col rounded-xl lg:flex-row m-3 max-w-md lg:max-w-6xl'>
 
-            <img src={imageUrl} className='rounded-t-xl lg:rounded-r-none lg:rounded-l-xl max-w-sm' alt="Parfum Image" />
+            <img src={imageUrl} className='rounded-t-xl lg:rounded-r-none  lg:max-w-sm lg:rounded-l-xl' alt="Parfum Image" />
 
-            <div className='flex flex-col p-6 max-w-sm grow lg:p-'>
+            <div className='flex flex-col p-6   lg:p-5 lg:max-w-sm'>
                 <p className='font-montserrat text-darkGrayishBlue text-sm'>P E R F U M E</p>
 
                 <h1 className='text-3xl my-4 font-fraunces lg:text-5xl'>Gabrielle Essence Eau De Parfum</h1>
@@ -44,7 +44,7 @@ function Card() {
 
 
                 <button className='bg-darkCyan text-white p-4 rounded-lg font-montserrat font-bold flex justify-center items-center hover:bg-green-900 focus:bg-green-800'>
-                    <AiOutlineShoppingCart className='text-2xl mr-3'/> Add to Cart
+                    <img className='mr-2' src="src\\images\\icon-cart.svg" alt="Shoppingcart symbol" /> Add to Cart
                 </button>
             </div>
 
